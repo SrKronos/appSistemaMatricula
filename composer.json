@@ -1,0 +1,17 @@
+{
+    "name": "asus.com/app-sistema-matricula",
+    "autoload": {
+        "psr-4": {
+            "AsusCom\\AppSistemaMatricula\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Loor",
+            "email": "leonardoloor1988@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
