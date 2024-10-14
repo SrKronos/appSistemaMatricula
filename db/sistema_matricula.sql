@@ -4,6 +4,8 @@ CREATE TABLE usuarios (
  password VARCHAR(50) NOT NULL
 );
 
+insert into usuarios(username,password) values ('leo@mail.com','123');
+
 CREATE TABLE estudiantes (
  id SERIAL PRIMARY KEY,
  nombre VARCHAR(100) NOT NULL,

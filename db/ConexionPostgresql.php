@@ -14,7 +14,7 @@ class ConexionPostgresql {
 
         // Obtener las variables de entorno
         $host = "localhost";
-        $port = "5435";
+        $port = "5432";
         $db = "sistema_matricula";
         $user = "postgres";
         $pass = "admin123";

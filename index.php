@@ -30,6 +30,6 @@
         </div>
     </div>
     <div class="watermark">Derechos Reservados Leonardo Loor - 2024 v1.0.1 &reg;</div>
-    <script src="js/index.js"></script>
+    <script src="js/index.js?<?php echo time(); ?>"></script>
 </body>
 </html>

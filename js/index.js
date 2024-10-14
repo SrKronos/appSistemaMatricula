@@ -41,7 +41,7 @@ $(document).ready(function () {
             icon: "success",
           }).then((result) => {
             if (result.isConfirmed) {
-              window.location.href = "/appSistemaMatricula/view/principal.php";
+              window.location.href = "view/principal.php";
             }
           });
           break;
